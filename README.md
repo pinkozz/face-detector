@@ -74,3 +74,8 @@ Contributions to the face-detector are welcome! If you'd like to contribute, ple
 6. Submit a pull request to the main repository.
 
 Please ensure that your contributions align with the project's coding style, guidelines, and licensing.
+
+# License
+The face-detector is open-source software released under the MIT License.
+
+Feel free to customize this guide page based on your specific bot implementation and project requirements.
