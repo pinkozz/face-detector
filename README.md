@@ -4,6 +4,8 @@ OpenCV face detection software that detects faces by identifying facial features
 # Table of contents
 • [Features](https://github.com/pinkozz/face-detector#features)
 
+• [Requirements](https://github.com/pinkozz/face-detector#requirements)
+
 • [Installation](https://github.com/pinkozz/face-detector#installation)
 
 • [Usage](https://github.com/pinkozz/face-detector#usage)
@@ -15,6 +17,12 @@ OpenCV face detection software that detects faces by identifying facial features
 • Detect face using your own images!
 
 • Easy-to-use and extandable codebase
+
+# Requirements
+To use this program you have to install follownig libraries: <b>OpenCV</b>
+```shell
+pip3 install opencv-python
+```
 
 # Installation
 1. Clone this repository to your local machine using this command:
