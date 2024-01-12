@@ -1,5 +1,7 @@
 # face-detector
 OpenCV face detection software that detects faces by identifying facial features in a photo using machine learning algorithms. It first looks for an eye, and from there it identifies other facial features. It then compares these features to training data to confirm it has detected a face.
+![Screenshot from 2024-01-13 00-49-14](https://github.com/pinkozz/face-detector/assets/136079534/670d64f5-f189-4a13-8209-3de6dd27ddac)
+
 
 # Table of contents
 • [Features](https://github.com/pinkozz/face-detector#features)
