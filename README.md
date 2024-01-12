@@ -35,21 +35,21 @@ pip3 install opencv-python
    ```shell
    cd face-detector
    ```
-3. Once you have installed the face detector open <b>face_detection.py</b> and change "../face/test.jpg" to your actual path to test.jpg:
+3. Once you have installed the face detector open <b>face_detection.py</b> and change "face/test.jpg" to your actual path to test.jpg:
    
    ```shell
-   img = cv.imread('../face/test.jpg')
+   img = cv.imread('face/test.jpg')
    ```
 
-4. Change "../detection-model/haar_face.xml" to your actual path to haar_face.xml:
+4. Change "detection-model/haar_face.xml" to your actual path to haar_face.xml:
 
    ```shell
-   haar_cascade = cv.CascadeClassifier('../detection-model/haar_face.xml')
+   haar_cascade = cv.CascadeClassifier('detection-model/haar_face.xml')
    ```
 
 5. You can add your own photo to test the detector:
 
-   1)Go to <b>../face</b> and add your own photo there
+   1)Go to <b>face/</b> and add your own photo there
    
    2)Change path to foto from <b>PATH_TO_YOUR_PHOTO</b> to your actual path to the photo:
 
@@ -62,7 +62,7 @@ pip3 install opencv-python
    python3 face_detection.py
   ```
 
-<b>!!NOTE!! The face detector is built for detecting one face per image. If you added an image with 2 or more faces in it, the program might not work properly. To change that go to ../main/face_detection.py and pass smaller value to minNeighbors. The less the value is, the more faces will be detected.</b>
+<b>!!NOTE!! The face detector is built for detecting one face per image. If you added an image with 2 or more faces in it, the program might not work properly. To change that go to main/face_detection.py and pass smaller value to minNeighbors. The less the value is, the more faces will be detected.</b>
 
 ```shell
   faces_rect = haar_cascade.detectMultiScale(gray, scaleFactor=1.1, minNeighbors=5)
