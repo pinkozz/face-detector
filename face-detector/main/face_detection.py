@@ -2,13 +2,13 @@
 import cv2 as cv
 
 # Read the image
-img = cv.imread('../face/test.jpg')
+img = cv.imread('face/test.jpg')
 
 # Convert the image to grayscale
 gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
 
 # Include the face detection model
-haar_cascade = cv.CascadeClassifier('../detection-model/haar_face.xml')
+haar_cascade = cv.CascadeClassifier('detection-model/haar_face.xml')
 
 # Find faces using model
 faces_rect = haar_cascade.detectMultiScale(gray, scaleFactor=1.1, minNeighbors=10)
